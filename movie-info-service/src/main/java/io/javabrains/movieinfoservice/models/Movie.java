@@ -27,4 +27,12 @@ public class Movie {
     public void setName(String name) {
         this.name = name;
     }
+
+    public String getOverview() {
+        return overview;
+    }
+
+    public void setOverview(String overview) {
+        this.overview = overview;
+    }
 }
