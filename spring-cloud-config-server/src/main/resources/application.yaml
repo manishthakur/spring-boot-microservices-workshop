@@ -7,9 +7,13 @@ spring:
       server:
         git:
           uri:  https://github.com/manishthakur/spring-cloud-config.git
+          #uri:  file://C:/java/projects/learnings/configrepo
           skipSslValidation: true
           default-label: master
-          clone-on-start: true
+
+
+
+
 
 
 

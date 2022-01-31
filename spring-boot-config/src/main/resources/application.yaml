@@ -5,7 +5,7 @@ app:
 my:
   greeting: Hello
   list:
-    values: One, Two, Three, Four
+    values: One, Two, Three, Four, Five
 
 management.endpoints.web.exposure.include: "*"
 spring.cloud.config.server.git.uri: http://localhost:8888
